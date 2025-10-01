@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72d31238_ed4800a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2025-10-01T13:45:08Z",
+      "side": 1,
+      "message": "Should we also explain in the README.md that this plugin requires the healthcheck plugin to be installed in the `plugins` directory, as this is based on it?\n\nAlso, what happens if the healthcheck plugin is not installed in the plugins directory? Do we fail gracefully?",
+      "revId": "9144cf630459fd978b7f9c1a7852ac0d471eb60f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a8804d0_a328f440",
+        "filename": "BUILD",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2025-10-01T13:45:08Z",
+      "side": 1,
+      "message": "healthcheck-enterprise?",
+      "range": {
+        "startLine": 13,
+        "startChar": 28,
+        "endLine": 13,
+        "endChar": 39
+      },
+      "revId": "9144cf630459fd978b7f9c1a7852ac0d471eb60f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07fcff52_13cfcd43",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/HealthCheckSubsystemsModule.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2025-10-01T13:45:08Z",
+      "side": 1,
+      "message": "Why is `bindChecker` necessary? Can we not just inline the DynamicSet binding at L22?",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 3
+      },
+      "revId": "9144cf630459fd978b7f9c1a7852ac0d471eb60f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60c47cf2_bca1ff0b",
+        "filename": "src/main/resources/Documentation/about.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1015244
+      },
+      "writtenOn": "2025-10-01T13:45:08Z",
+      "side": 1,
+      "message": "```suggestion\nThis plugin provides extended checks needed by large enterprises for verifying\nthe healthiness of their Gerrit server.\n```",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 39
+      },
+      "revId": "9144cf630459fd978b7f9c1a7852ac0d471eb60f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
