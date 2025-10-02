@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7e85dba3_afb849fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-02T07:18:03Z",
+      "side": 1,
+      "message": "That\u0027s a good point, maybe we should include the jar of the healthcheck plugin in the healthcheck-enterprise as well? That would simplify the setup.",
+      "parentUuid": "72d31238_ed4800a8",
+      "revId": "9144cf630459fd978b7f9c1a7852ac0d471eb60f",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5a8804d0_a328f440",
         "filename": "BUILD",
         "patchSetId": 2
