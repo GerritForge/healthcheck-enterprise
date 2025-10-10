@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "690d4c26_91e6eba5",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-10T14:50:02Z",
+      "side": 1,
+      "message": "Add the dependency from Javamelody",
+      "revId": "52b1ff64d0b8d731b2c98e59b147deacb5d7c328",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
