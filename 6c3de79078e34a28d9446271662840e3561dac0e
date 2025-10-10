@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "fd46153c_ff32505c",
+        "filename": "BUILD",
+        "patchSetId": 7
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-10T16:32:55Z",
+      "side": 1,
+      "message": "This should be `0` , isn\u0027t it?",
+      "range": {
+        "startLine": 49,
+        "startChar": 16,
+        "endLine": 49,
+        "endChar": 17
+      },
+      "revId": "6c3de79078e34a28d9446271662840e3561dac0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "943469b2_37581495",
         "filename": "src/main/resources/Documentation/config.md",
         "patchSetId": 7
