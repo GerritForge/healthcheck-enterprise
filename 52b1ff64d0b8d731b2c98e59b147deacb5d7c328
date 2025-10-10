@@ -3,6 +3,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1b814032_8b2dde14",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-10T15:33:49Z",
+      "side": 1,
+      "message": "Here I am using the the javamelody metric telling me the pct of memory userd. However, we would depend on the javamelody plugin. \n\nAs an alternative I could use the `proc/jvm/memory/heap_used` provided by Gerrit, but I would need the max Heap allocated which can be defined in the heapLimit paramenter (https://gerrit-review.googlesource.com/Documentation/config-gerrit.html#container) or it is platform and JVM specific.\n\nCan you think of any alternative?\n\nWDYT?",
+      "range": {
+        "startLine": 10,
+        "startChar": 38,
+        "endLine": 10,
+        "endChar": 64
+      },
+      "revId": "52b1ff64d0b8d731b2c98e59b147deacb5d7c328",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "690d4c26_91e6eba5",
         "filename": "src/main/resources/Documentation/config.md",
         "patchSetId": 6
