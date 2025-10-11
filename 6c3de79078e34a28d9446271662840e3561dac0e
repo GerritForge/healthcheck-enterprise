@@ -18,6 +18,24 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "99a0e1fb_5866695b",
+        "filename": "BUILD",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-11T21:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b8f52ec_243656f5",
+      "revId": "6c3de79078e34a28d9446271662840e3561dac0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fd46153c_ff32505c",
@@ -31,6 +49,30 @@
       "writtenOn": "2025-10-10T16:32:55Z",
       "side": 1,
       "message": "This should be `0` , isn\u0027t it?",
+      "range": {
+        "startLine": 49,
+        "startChar": 16,
+        "endLine": 49,
+        "endChar": 17
+      },
+      "revId": "6c3de79078e34a28d9446271662840e3561dac0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22e081b5_152321bb",
+        "filename": "BUILD",
+        "patchSetId": 7
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-11T21:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fd46153c_ff32505c",
       "range": {
         "startLine": 49,
         "startChar": 16,
