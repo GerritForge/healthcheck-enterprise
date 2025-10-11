@@ -98,6 +98,24 @@
       "message": "We hould probably refer to the OS plugin for the Settings documentation",
       "revId": "6c3de79078e34a28d9446271662840e3561dac0e",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "148a0c39_971a80c4",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-11T21:18:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "943469b2_37581495",
+      "revId": "6c3de79078e34a28d9446271662840e3561dac0e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
