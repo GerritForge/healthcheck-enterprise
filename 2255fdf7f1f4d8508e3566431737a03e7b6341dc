@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afac6bfe_e60db1af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-13T07:38:51Z",
+      "side": 1,
+      "message": "Done and merged already with https://review.gerrithub.io/c/GerritForge/healthcheck-enterprise/+/1224218",
+      "revId": "2255fdf7f1f4d8508e3566431737a03e7b6341dc",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
