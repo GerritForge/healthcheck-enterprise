@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "44ff6a75_f09669fd",
+        "filename": "BUILD",
+        "patchSetId": 12
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-13T07:41:03Z",
+      "side": 1,
+      "message": "It has been fixed already on stable-13 with https://review.gerrithub.io/c/GerritForge/healthcheck-enterprise/+/1224218",
+      "parentUuid": "b011780d_bce1662a",
+      "range": {
+        "startLine": 14,
+        "startChar": 78,
+        "endLine": 14,
+        "endChar": 94
+      },
+      "revId": "da1b6c57a38477ecb7c12ee340d2f01b61e6aa9b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ed8c487f_86e5252f",
@@ -61,6 +85,30 @@
       "writtenOn": "2025-10-13T07:35:38Z",
       "side": 1,
       "message": "Post merge -1. Doesn\u0027t seem to work:\n\n```\ncurl -vvv -XGET \"http://localhost:8080/config/server/healthcheck-enterprise~status\"\nNote: Unnecessary use of -X or --request, GET is already inferred.\n* Host localhost:8080 was resolved.\n* IPv6: ::1\n* IPv4: 127.0.0.1\n*   Trying [::1]:8080...\n* Connected to localhost (::1) port 8080\n\u003e GET /config/server/healthcheck~status HTTP/1.1\n\u003e Host: localhost:8080\n\u003e User-Agent: curl/8.7.1\n\u003e Accept: */*\n\u003e \n* Request completely sent off\n\u003c HTTP/1.1 404 Not Found\n\u003c Date: Mon, 13 Oct 2025 07:33:53 GMT\n\u003c X-Frame-Options: deny\n\u003c X-Gerrit-Trace: 1760340833723-87b28ab3\n\u003c X-Content-Type-Options: nosniff\n\u003c Content-Security-Policy: default-src \u0027none\u0027; sandbox\n\u003c Referrer-Policy: no-referrer\n\u003c Cache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\n\u003c Pragma: no-cache\n\u003c Expires: Mon, 01 Jan 1990 00:00:00 GMT\n\u003c Content-Type: text/plain;charset\u003dutf-8\n\u003c Content-Length: 30\n\u003c \nNot found: healthcheck~status\n* Connection #0 to host localhost left intact\n```",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 48
+      },
+      "revId": "da1b6c57a38477ecb7c12ee340d2f01b61e6aa9b",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ec9d2e8_9b66784b",
+        "filename": "README.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-13T07:41:03Z",
+      "side": 1,
+      "message": "\u003e Post merge -1. Doesn\u0027t seem to work:\n\u003e \n\u003e ```\n\u003e curl -vvv -XGET \"http://localhost:8080/config/server/healthcheck-enterprise~status\"\n\u003e Note: Unnecessary use of -X or --request, GET is already inferred.\n\u003e * Host localhost:8080 was resolved.\n\u003e * IPv6: ::1\n\u003e * IPv4: 127.0.0.1\n\u003e *   Trying [::1]:8080...\n\u003e * Connected to localhost (::1) port 8080\n\u003e \u003e GET /config/server/healthcheck~status HTTP/1.1\n\u003e \u003e Host: localhost:8080\n\u003e \u003e User-Agent: curl/8.7.1\n\u003e \u003e Accept: */*\n\u003e \u003e \n\u003e * Request completely sent off\n\u003e \u003c HTTP/1.1 404 Not Found\n\u003e \u003c Date: Mon, 13 Oct 2025 07:33:53 GMT\n\u003e \u003c X-Frame-Options: deny\n\u003e \u003c X-Gerrit-Trace: 1760340833723-87b28ab3\n\u003e \u003c X-Content-Type-Options: nosniff\n\u003e \u003c Content-Security-Policy: default-src \u0027none\u0027; sandbox\n\u003e \u003c Referrer-Policy: no-referrer\n\u003e \u003c Cache-Control: no-cache, no-store, max-age\u003d0, must-revalidate\n\u003e \u003c Pragma: no-cache\n\u003e \u003c Expires: Mon, 01 Jan 1990 00:00:00 GMT\n\u003e \u003c Content-Type: text/plain;charset\u003dutf-8\n\u003e \u003c Content-Length: 30\n\u003e \u003c \n\u003e Not found: healthcheck~status\n\u003e * Connection #0 to host localhost left intact\n\u003e ```\n\nSomething isn\u0027t right in your command: I see `GET /config/server/healthcheck~status` in the output, meaning that you\u0027ve used the wrong path.",
+      "parentUuid": "ed8c487f_86e5252f",
       "range": {
         "startLine": 76,
         "startChar": 0,
