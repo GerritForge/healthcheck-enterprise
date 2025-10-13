@@ -48,6 +48,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a918627_b3bd947b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-13T15:15:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b4813618_10cac4b1",
+      "range": {
+        "startLine": 10,
+        "startChar": 38,
+        "endLine": 10,
+        "endChar": 64
+      },
+      "revId": "52b1ff64d0b8d731b2c98e59b147deacb5d7c328",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "690d4c26_91e6eba5",
@@ -79,6 +103,24 @@
       "side": 1,
       "message": "I don\u0027t believe we need JavaMelody for this.",
       "parentUuid": "690d4c26_91e6eba5",
+      "revId": "52b1ff64d0b8d731b2c98e59b147deacb5d7c328",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dff0f30_11bc93d7",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-13T15:15:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a0f84b6_c3053291",
       "revId": "52b1ff64d0b8d731b2c98e59b147deacb5d7c328",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
