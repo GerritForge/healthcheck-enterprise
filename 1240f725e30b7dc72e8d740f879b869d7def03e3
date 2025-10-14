@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70ce75c9_c033a39e",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/EnterpriseHealthCheckConfig.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-14T13:57:12Z",
+      "side": 1,
+      "message": "Should we do some basic validation that the number is:\n- positive\n- less than 100",
+      "range": {
+        "startLine": 44,
+        "startChar": 11,
+        "endLine": 44,
+        "endChar": 86
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fd76c1a_f14fd9a9",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-14T13:57:12Z",
+      "side": 1,
+      "message": "Do we really need this level of precision? I believe it would be acceptable to just indicate the % without decimals.",
+      "range": {
+        "startLine": 71,
+        "startChar": 4,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa55f654_0bcb6982",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-14T13:57:12Z",
+      "side": 1,
+      "message": "Why logging at severe?",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 35
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcb3f54f_24d376ec",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-14T13:57:12Z",
+      "side": 1,
+      "message": "```suggestion\n    return pct \u003e threshold ? Result.FAILED : Result.PASSED;\n```",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 25
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6eec0d8f_a5ba4e0d",
+        "filename": "src/test/java/com/googlesource/gerrit/plugins/healthcheck/check/JVMHeapCheckTest.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-14T13:57:12Z",
+      "side": 1,
+      "message": "This is repeated multiple times in the test and can be dried out.",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 68
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
