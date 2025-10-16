@@ -116,6 +116,30 @@
       },
       "revId": "fc688bfc5cf809b28e9c99267886adfab1733f99",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a8f1d6d_e655246d",
+        "filename": "src/test/java/com/googlesource/gerrit/plugins/healthcheck/check/JVMHeapCheckTest.java",
+        "patchSetId": 21
+      },
+      "lineNbr": 127,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T16:20:34Z",
+      "side": 1,
+      "message": "Good point.",
+      "parentUuid": "9074d17a_a7b1d1cf",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 127,
+        "endChar": 71
+      },
+      "revId": "fc688bfc5cf809b28e9c99267886adfab1733f99",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     }
   ]
 }
