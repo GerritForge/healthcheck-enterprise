@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd5587dd_4cb9fc68",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/EnterpriseHealthCheckConfig.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T07:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "70ce75c9_c033a39e",
+      "range": {
+        "startLine": 44,
+        "startChar": 11,
+        "endLine": 44,
+        "endChar": 86
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2fd76c1a_f14fd9a9",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-10-14T13:57:12Z",
       "side": 1,
       "message": "Do we really need this level of precision? I believe it would be acceptable to just indicate the % without decimals.",
+      "range": {
+        "startLine": 71,
+        "startChar": 4,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2ce790b_33bf0336",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T07:30:15Z",
+      "side": 1,
+      "message": "True, done",
+      "parentUuid": "2fd76c1a_f14fd9a9",
       "range": {
         "startLine": 71,
         "startChar": 4,
@@ -70,6 +118,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8603011b_9fd5673e",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T07:30:15Z",
+      "side": 1,
+      "message": "Ops, sorry a leftover",
+      "parentUuid": "aa55f654_0bcb6982",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 35
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bcb3f54f_24d376ec",
@@ -93,6 +165,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1085967b_b6274c27",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T07:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bcb3f54f_24d376ec",
+      "range": {
+        "startLine": 76,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 25
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6eec0d8f_a5ba4e0d",
@@ -106,6 +202,30 @@
       "writtenOn": "2025-10-14T13:57:12Z",
       "side": 1,
       "message": "This is repeated multiple times in the test and can be dried out.",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 68
+      },
+      "revId": "1240f725e30b7dc72e8d740f879b869d7def03e3",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cc89545_9292d5f3",
+        "filename": "src/test/java/com/googlesource/gerrit/plugins/healthcheck/check/JVMHeapCheckTest.java",
+        "patchSetId": 17
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T07:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6eec0d8f_a5ba4e0d",
       "range": {
         "startLine": 43,
         "startChar": 0,
