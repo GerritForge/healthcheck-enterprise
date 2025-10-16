@@ -9,7 +9,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.googlesource.gerrit.plugins.healthcheck.check;
+package com.gerritforge.gerrit.plugins.healthcheck.enterprise.check;
 
 import static com.gerritforge.gerrit.plugins.healthcheck.enterprise.EnterpriseHealthCheckConfig.JVM_MEMORY_PERCENTAGE_DEFAULT;
 import static com.google.gerrit.testing.GerritJUnit.assertThrows;
@@ -19,9 +19,6 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import com.gerritforge.gerrit.plugins.healthcheck.enterprise.EnterpriseHealthCheckConfig;
-import com.gerritforge.gerrit.plugins.healthcheck.enterprise.check.EnterpriseCheck;
-import com.gerritforge.gerrit.plugins.healthcheck.enterprise.check.HealthCheckNames;
-import com.gerritforge.gerrit.plugins.healthcheck.enterprise.check.JVMHeapCheck;
 import com.google.common.util.concurrent.ListeningExecutorService;
 import com.google.common.util.concurrent.testing.TestingExecutors;
 import com.google.gerrit.metrics.MetricMaker;
