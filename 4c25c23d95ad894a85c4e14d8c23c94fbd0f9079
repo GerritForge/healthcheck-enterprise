@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90bf3982_71bebf0c",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 22
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-16T14:16:12Z",
+      "side": 1,
+      "message": "This is almost a copy\u0026paste of the constructor at L46.\n\n\n\n```suggestion\n  @Inject\n  public JVMHeapCheck(\n      ListeningExecutorService executor,\n      EnterpriseHealthCheckConfig config,\n      MetricMaker metricMaker) {\n    this(executor, config, metricMaker, ManagementFactory.getMemoryMXBean());\n  }\n```",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 3
+      },
+      "revId": "4c25c23d95ad894a85c4e14d8c23c94fbd0f9079",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ca749d6_47d56cb1",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-10-16T14:16:12Z",
+      "side": 1,
+      "message": "```suggestion\n`healthcheck-enterprise.config` file in the `$GERRIT_SITE/etc` directory.\n```",
+      "range": {
+        "startLine": 32,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 12
+      },
+      "revId": "4c25c23d95ad894a85c4e14d8c23c94fbd0f9079",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    }
+  ]
+}
