@@ -9,13 +9,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.googlesource.gerrit.plugins.healthcheck;
+package com.gerritforge.gerrit.plugins.healthcheck.enterprise;
 
 import static com.googlesource.gerrit.plugins.healthcheck.HealthCheckConfig.HEALTHCHECK_PLUGIN_NAME;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import com.gerritforge.gerrit.plugins.healthcheck.enterprise.EnterpriseHealthCheckConfig;
 import com.gerritforge.gerrit.plugins.healthcheck.enterprise.check.HealthCheckNames;
 import com.google.gerrit.server.config.AllProjectsName;
 import com.google.gerrit.server.config.AllUsersName;

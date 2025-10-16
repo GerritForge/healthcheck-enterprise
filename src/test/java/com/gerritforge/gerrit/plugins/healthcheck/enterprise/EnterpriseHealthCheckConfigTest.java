@@ -9,15 +9,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.googlesource.gerrit.plugins.healthcheck;
+package com.gerritforge.gerrit.plugins.healthcheck.enterprise;
 
 import static com.gerritforge.gerrit.plugins.healthcheck.enterprise.EnterpriseHealthCheckConfig.JVM_MEMORY_PERCENTAGE_DEFAULT;
+import static com.gerritforge.gerrit.plugins.healthcheck.enterprise.TestUtils.enterpriseHealthCheckConfig;
+import static com.gerritforge.gerrit.plugins.healthcheck.enterprise.TestUtils.getConfigWithThreshold;
 import static com.google.gerrit.testing.GerritJUnit.assertThrows;
-import static com.googlesource.gerrit.plugins.healthcheck.TestUtils.enterpriseHealthCheckConfig;
-import static com.googlesource.gerrit.plugins.healthcheck.TestUtils.getConfigWithThreshold;
 import static org.junit.Assert.assertEquals;
 
-import com.gerritforge.gerrit.plugins.healthcheck.enterprise.EnterpriseHealthCheckConfig;
 import org.eclipse.jgit.lib.Config;
 import org.junit.Test;
 
