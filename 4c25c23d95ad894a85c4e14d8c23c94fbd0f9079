@@ -24,6 +24,30 @@
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cee38142_b817aeaf",
+        "filename": "src/main/java/com/gerritforge/gerrit/plugins/healthcheck/enterprise/check/JVMHeapCheck.java",
+        "patchSetId": 22
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T14:41:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "90bf3982_71bebf0c",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 3
+      },
+      "revId": "4c25c23d95ad894a85c4e14d8c23c94fbd0f9079",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1ca749d6_47d56cb1",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-10-16T14:16:12Z",
       "side": 1,
       "message": "```suggestion\n`healthcheck-enterprise.config` file in the `$GERRIT_SITE/etc` directory.\n```",
+      "range": {
+        "startLine": 32,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 12
+      },
+      "revId": "4c25c23d95ad894a85c4e14d8c23c94fbd0f9079",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b29274c8_41f82b6f",
+        "filename": "src/main/resources/Documentation/config.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1012541
+      },
+      "writtenOn": "2025-10-16T14:41:14Z",
+      "side": 1,
+      "message": "`healthcheck.config` is the config file used. `EnterpriseHealthCheckConfig` inherits from `HealthCheckConfig`, which contains part oof logic useful for the enterprise version of the plugin, for example the `healthCheckEnabled` method.",
+      "parentUuid": "1ca749d6_47d56cb1",
       "range": {
         "startLine": 32,
         "startChar": 1,
