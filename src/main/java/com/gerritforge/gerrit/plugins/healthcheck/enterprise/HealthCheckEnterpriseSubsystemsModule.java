@@ -11,7 +11,7 @@
 
 package com.gerritforge.gerrit.plugins.healthcheck.enterprise;
 
-import com.gerritforge.gerrit.plugins.healthcheck.enterprise.check.EnterpriseCheck;
+import com.gerritforge.gerrit.plugins.healthcheck.enterprise.check.JVMHeapCheck;
 import com.google.gerrit.extensions.config.FactoryModule;
 import com.google.gerrit.extensions.registration.DynamicSet;
 import com.googlesource.gerrit.plugins.healthcheck.check.HealthCheck;
@@ -20,6 +20,6 @@ public class HealthCheckEnterpriseSubsystemsModule extends FactoryModule {
 
   @Override
   protected void configure() {
-    DynamicSet.bind(binder(), HealthCheck.class).to(EnterpriseCheck.class);
+    DynamicSet.bind(binder(), HealthCheck.class).to(JVMHeapCheck.class);
   }
 }

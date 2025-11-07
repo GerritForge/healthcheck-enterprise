@@ -39,9 +39,20 @@ junit_tests(
 java_library(
     name = "healthcheck-enterprise__plugin_test_deps",
     testonly = 1,
-    srcs = glob(["src/test/java/**/Abstract*.java"]),
+    srcs = glob(
+        ["src/test/java/**/*.java"],
+        exclude = [
+            "src/test/java/**/*Test.java",
+            "src/test/java/**/*IT.java",
+        ],
+    ),
     visibility = ["//visibility:public"],
     exports = PLUGIN_DEPS + PLUGIN_TEST_DEPS + [
         ":healthcheck-enterprise__plugin",
+        "//plugins/healthcheck",
+    ],
+    deps = PLUGIN_DEPS + PLUGIN_TEST_DEPS + [
+        ":healthcheck-enterprise__plugin",
+        "//plugins/healthcheck",
     ],
 )
